@@ -14,7 +14,7 @@ export default function Header() {
       </div>
       <div className="flex items-center gap-4">
         <ModeSwitch />
-        <Link href={"/"} className="flex gap-1 item-center">
+        <Link href={"/"} className="flex gap-2 item-center">
           <span className="text-2xl text-black font-bold bg-amber-500 py-1 px-2 rounded-lg">
             IMDb
           </span>
