@@ -23,10 +23,10 @@ export default function Card({ result }) {
           <div className="line-clamp-2 text-sm text-gray-700 mb-2">
             {result.overview}
           </div>
-          <div className="text-lg font-semibold text-center text-gray-400">
+          <div className="text-lg font-semibold text-center text-gray-400 mt-4">
             {result.title || result.name}
           </div>
-          <p className="flex items-center text-sm">
+          <p className="flex justify-center text-sm">
             {result.release_date || result.first_air_date}
             <FiThumbsUp className="h-5 mr-1 ml-3" />{" "}
             {/* Adjust spacing around the icon */}
