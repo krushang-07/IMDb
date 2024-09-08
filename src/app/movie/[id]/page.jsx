@@ -34,13 +34,13 @@ export default async function MoviePage({ params }) {
           <p className="text-lg mb-5 leading-relaxed text-gray-600 animate__animated animate__fadeInUp animate__delay-1s">
             {movie.overview}
           </p>
-          <p className="text-lg mb-4">
+          <p className="text-lg mb-4 text-gray-500">
             <span className="font-semibold text-yellow-400">
               Date Released:
             </span>{" "}
             {movie.release_date || movie.first_air_date}
           </p>
-          <p className="text-lg mb-4">
+          <p className="text-lg mb-4 text-gray-500">
             <span className="font-semibold text-yellow-400">Rating:</span>{" "}
             {movie.vote_count}
           </p>

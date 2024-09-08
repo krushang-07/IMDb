@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="w-full p-6 space-y-8 bg-gray-100 dark:bg-black text-gray-800 dark:text-gray-200 shadow-lg">
+    <div className="w-full p-6 px-4 sm:px-6 space-y-8 bg-gray-100 dark:bg-black text-gray-800 dark:text-gray-200 shadow-lg max-w-4xl mx-auto rounded-lg">
       <h1 className="text-4xl font-semibold text-center text-amber-600 dark:text-amber-400 mb-6">
         About Us
       </h1>

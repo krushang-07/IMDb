@@ -3,6 +3,8 @@ import "./globals.css";
 import Header from "@/Components/Header";
 import Providers from "./Providers";
 import NavBar from "@/Components/NavBar";
+import SearchBox from "@/Components/SearchBox";
+import Footer from "@/Components/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -16,7 +18,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "IMDb clone",
+  title: "IMDb Rating",
   description: "This is movie rating platform",
 };
 
@@ -29,7 +31,9 @@ export default function RootLayout({ children }) {
         <Providers>
           <Header />
           <NavBar />
+          <SearchBox />
           {children}
+          <Footer />
         </Providers>
       </body>
     </html>
