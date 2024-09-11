@@ -1,4 +1,4 @@
-import Results from "@/components/Result";
+import Result from "@/components/Result";
 
 export default async function SearchPage({ params }) {
   const seachTerm = params.searchTerm;
@@ -12,7 +12,7 @@ export default async function SearchPage({ params }) {
       {results &&
         results.length ===
         <h1 className="text-center pt-6">No results found</h1>}
-      {results && <Results results={results} />}
+      {results && <Result results={results} />}
     </div>
   );
 }
